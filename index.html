@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Q3 Quiz 2</title>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+
+	<style>
+		img {
+			height: 180px;
+			width: 120px;
+		}
+		body {
+			background-image: url('https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg;');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 300%;
+		}
+		#brand {
+			height:120px;
+			width: 160px;
+		}
+		.nav-link {
+			color: white;
+			font-size: 30px;
+		}
+		.search-container{
+			width:50%;
+		}
+		.searchinput {
+			cursor: text;
+		}
+		#searchsub {
+			cursor: pointer;
+		}
+		#topnav {
+			width: 110%;
+			font-family: Tahoma;
+			font-size: 5px;
+			font-display: italic;
+		}
+		.navbar {
+			font-family: Helvetica;
+			font-size: 20px;
+		}
+		#email {
+			width: 60%;
+		}
+		#password {
+			width: 30%;
+		}
+		#user {
+			width: 60%;
+		}
+		#sel1 {
+			width: 30%;
+		}
+		#submit {
+			width: 30%; }
+		#comment {
+			width: 60%;
+		}
+
+	</style>
+
+</head>
+<body>
+
+		<nav class="navbar navbar-expand-md bg-dark">
+
+	<a class="navbar-brand" href="#"><img src="https://static.vecteezy.com/system/resources/previews/019/766/188/original/prime-video-logo-prime-video-icon-transparent-logo-free-png.png" id="brand"></a>
+
+	<div id="topnav">
+
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Settings</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Watchlist</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Purchases</a>
+			</li>
+		</ul>
+
+	</div>
+
+	<div class="search-container">
+		<form>
+			<input type="search" placeholder="🔎Search" name="search" class="searchinput">
+			<button type="submit" class="btn-info" id="searchsub">Search</button>
+		</form>
+	</div>
+	</nav>
+
+<center>
+
+<h1 class="text-light bg-info">MOVIE REVIEW</h1>
+<br><br><br>
+
+<div id="main1">
+	<div class="container-fluid">
+			<div classes="row">
+			<tr>
+				<div class="col-md-9">
+					<table id="table1" class="table table-hover">
+						<tr class="bg-info text-light">
+							<center>
+							<th id="movies">Movies</th>
+							<th id="synop">Synopsis</th>
+							<th id="cast">Cast & Director</th>
+							<th id="rating">Movie Review</th>
+							<th>Rating</th>
+						</center>
+						</tr>
+						<tr class="text-light">
+							<td><img src="https://m.media-amazon.com/images/M/MV5BOTQxMWNiZmYtOGUzMi00OGU5LTkzMjctYWY4ZmJkZjZiYWI5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"><br>Fear Street: 1987</td>
+							<td>A summer of fun turns into a gruesome fight for survival as a killer terrorizes Camp Nightwing in the cursed town of Shadyside.</td>
+							<td>Cast: Sadie Sink, Emily Rudd, Ted Sutherland, McCabe Slye, Ashley Zuckerman, Jordana Spiro<br><br> Director: Leigh Janiak <br><br> Duration: <u>90 minutes</u></td>
+							<td>"Entertaining slasher flic which gives good homage to the genre, but plays into the same tropes and story telling techniques as all the rest." - Matty Petes <br><br>"The first one was on the OK side but this one is miles better and I really enjoyed it! The characters are deeper which makes it far more engaging. The kill scenes are just so gruesome and it really stayed true to its slasher tag and horror fans would absolutely love that. Also, you get to know a little bit more of the backstory which leaves you on a cliffhanger and desperate to watch the third one." - Carlton Tazviona</td>
+							<td class="col-md-3 text-warning"><center><br>						<kbd>3.0</kbd><br>
+						Rating: ★★★☆☆<br><br><button onclick="showAlert(not available)" type="button" class="btn">Rate</button><br><br><br><br><button onclick="showAlert(not available)" type="button" class="btn-info">Add to watch list</button><br><button onclick="showAlert(not available)" type="button" class="btn-info">Purchase Movie?</button><br><br><button onclick="showAlert(not available)" type="button" class="btn-warning">Don't Recommend</button><br><br><button onclick="showAlert(not available)" type="button" class="btn-danger">Don't show this movie again</button></center></td>
+						</tr>
+						<tr class="text-light">
+							<td><img src="https://m.media-amazon.com/images/M/MV5BYjExYTcwYmYtMWY2Zi00MGJlLTk3YjUtZTU1Zjg4MDc0Y2FjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"><br>Scream 5</td>
+							<td>Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, Calif., a new killer dons the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town's deadly past.</td>
+							<td>Cast: Melissa Barrera, Jenna Ortega, Mikey Madison, Jack Quaid, Neve Campbell, Courtney Cox, Skeet Ulrich <br><br> Director: Matt Bettinelli-Olpin, Tyler Gillett<br><br> Duration: <u>92 minutes</u></td>
+							<td>"Amazing acting! I loved that they made ghost face more intimidating. Amazing job to the cinematography team for getting those amazing shots of ghost face that made ghost face stand out as not to be messed with. Story line was phenomenal and has made way for new characters, however it would have been nice to see more of Sidney and Gale but I understand that the story was taking another turn. I loved the twists, and the fact that it was hard to predict. If I could give another star I would! Thank you to the team and cast of scream especially for this one! What a movie!" - Mark O' Neill</td>
+							<td class="col-md-3 text-warning"><center><br>						<kbd>3.4</kbd><br>
+						Rating: ★★★☆☆<br><br><button onclick="showAlert(not available)" type="button" class="btn">Rate</button><br><br><br><br><button onclick="showAlert(not available)" type="button" class="btn-info">Add to watch list</button><br><button onclick="showAlert(not available)" type="button" class="btn-info">Purchase Movie?</button><br><br><button onclick="showAlert(not available)" type="button" class="btn-warning">Don't Recommend</button><br><br><button onclick="showAlert(not available)" type="button" class="btn-danger">Don't show this movie again</button></center></td>
+						</tr>
+						<tr class="text-light">
+							<td><img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Halloween_%282018%29_poster.jpg"><br>Halloween (2018)</td>
+							<td>It's been 40 years since Laurie Strode survived a vicious attack from crazed killer Michael Myers on Halloween night. Locked up in an institution, Myers manages to escape when his bus transfer goes horribly wrong. Laurie now faces a terrifying showdown when the masked madman returns to Haddonfield, Ill. -- but this time, she's ready for him.</td>
+							<td>Cast: Jamie Lee Curtis, James Jude Courtney, Andi Matichak, Dylan Arnold, Judy Greer<br><br> Duration: <u>88 minutes</u></td>
+							<td>"Absolutely loved this movie! Have been a hard core Halloween lover since I've watched the movie when I was a kid, and just love Michael Myers in general! I really liked this one as well. Loved how there was a bit of comedy to it at times to add in some laughs and definitely bring the old feel from the original with a little twist. Amazing job!" - Jess K.</td>
+							<td class="col-md-3 text-warning"><center><br>						<kbd>3.0</kbd><br>
+						Rating: ★★★☆☆<br><br><button onclick="showAlert(not available)" type="button" class="btn">Rate</button><br><br><br><br><button onclick="showAlert(not available)" type="button" class="btn-info">Add to watch list</button><br><button onclick="showAlert(not available)" type="button" class="btn-info">Purchase Movie?</button><br><br><button onclick="showAlert(not available)" type="button" class="btn-warning">Don't Recommend</button><br><br><button onclick="showAlert(not available)" type="button" class="btn-danger">Don't show this movie again</button></center></td>
+						</tr>
+					</table>
+				</div>
+				</div>
+			</div>
+
+	<br><br>
+
+<h1 class="bg-info text-light"id="sign-up">SIGN UP & COMMENT!</h1>
+
+	<br><br>
+			
+<form> 
+	<div class="row"> 
+		<div class="col"> 
+			<input type="text" class="form-control" id="email" placeholder="Enter email" name="email"> 
+		</div> 
+		<div class="col"> 
+			<input type="password" class="form-control" id="password" placeholder="Enter password" name="pswd"> 
+		</div> 
+	</div> 
+</form>
+
+<br>
+
+<form> 
+	<div class="row"> 
+		<div class="col"> 
+			<input type="text" class="form-control" id="user" placeholder="Enter username" name="user"> 
+		</div> 
+		<div class="col"> 
+			<div class="form-group">
+				<select class="form-control" id="sel1" placeholder="Select age range" name="sel1">
+					<option>12-15 yrs old</option>
+					<option>15-18 yrs old</option>
+					<option>18+ yrs old</option>
+				</select>
+			</div>
+		</div> 
+	</div> 
+</form>
+
+<br>
+
+<form> 
+	<div class="row"> 
+		<div class="col-md-6">
+			<textarea class="form-control" rows="5" id="comment" placeholder="Enter your comment here"></textarea>
+		</div>
+		<div class="col"> 
+			<input type="submit" class="btn-success" id="submit" placeholder="Submit" name="submit"> 
+		</div> 
+	</div> 
+</form>
+			<br><br>
+				<h3 class="text-light"><i><u>Sources</u></i></h3>
+				<a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root" target="_blank" class="container-fluid bg-dark">More movies to watch here</a>
+			</center>
+
+</body>
+</html>
